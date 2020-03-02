@@ -1,6 +1,11 @@
 # Walleye R script for hybridization analysis
 
-The purpose of this R script is to score three genotype ratios (homozygous AA and BB, heterozygous AB) for each examined fish.. If you find this code useful in your research, please consider citing (manuscript under revision)
+The purpose of this R script is to score three genotype ratios (homozygous AA and BB, heterozygous AB) for each examined fish.. If you find this code useful in your research, please consider citing (manuscript under revision).
+
+To download the R script and example files, please do
+```
+git clone git@github.com:hzz0024/Walleye.git
+```
 
 ## Dependencies
 - R 3.6
@@ -64,3 +69,5 @@ results <- do.call(rbind, out)
 # This file will appear into your working directory
 write.csv(results, file="results.csv", row.names = TRUE)
 ```
+Questions or comments please send to: 
+hzz0024@auburn.edu or hz269@cornell.edu
