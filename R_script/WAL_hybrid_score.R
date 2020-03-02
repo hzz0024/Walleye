@@ -1,5 +1,5 @@
 ################################################################################################################################carp
-######## Scoring genotypes ratios for 68 SNPs ########
+######## Scoring genotypes ratios for NEWHYBRIDS evaluation ########
 
 # The purpose of this R script is to score three genotype ratios (homozygous AA and BB, heterozygous AB) for each examined fish.
 # From your genotype file, copy your genotypes and transpose (lengthwise) them into a csv file containing the sample IDs and the 68 SNPs
@@ -13,11 +13,12 @@
 # Change the second variable to reflect the correct file and name of your data
 # Read into the reference and your sample files
 
-refsnp <- read.csv(file="GBS_ref.csv")
-genotype <- read.csv(file="GBS.csv", na.string="")
+refsnp <- read.csv(file="example_ref.csv")
+genotype <- read.csv(file="example_genotypes.csv", na.string="")
 
 ## Part 3: Change the length of your samples ##
 # This number should reflect the number of samples you will be running
+
 length_samples <- 60
 out <- vector(mode="list", length=length_samples)
 
