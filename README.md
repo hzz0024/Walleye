@@ -15,7 +15,7 @@ git clone git@github.com:hzz0024/Walleye.git
 
 - copy your genotypes into a csv file containing the sample IDs and the target SNPs (see example [here](https://github.com/hzz0024/Walleye/blob/master/Example_data/example_genotypes.csv))
 
-- create a reference genotype file containing the target SNPs (have the same order as genotype file, see example [here](https://github.com/hzz0024/Walleye/blob/master/Example_data/example_ref.csv)) 
+- create a reference genotype file containing the target SNPs (have the same order as genotype file (see example [here](https://github.com/hzz0024/Walleye/blob/master/Example_data/example_ref.csv)) 
 
 - Follow the instructions below to run the script in R or RStudio and the output will be a file with the scored markers and percentages
 
